@@ -14,9 +14,8 @@ Este projeto implementa uma fila circular simples usando TypeScript.
 - Ver espaços livres
 
 
-## Exemplo de uso
-
-```ts
+## Exemplo de uso {
+   ``ts
 import { FilaCircular } from "./fila";
 
 const fila = new FilaCircular<number>(5);
@@ -32,4 +31,7 @@ console.log(fila.desenfileirar());
 
 fila.exibirFila();
 
+}
 
+## feito por :
+Jose Gabriel de Oliveira Farias
